@@ -9,7 +9,7 @@
     "start": "node index",
     "start:dev": "nodemon index"
   },
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/oksemko/node-hw-01"
   },
@@ -20,5 +20,9 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "commander": "^10.0.0",
+    "nanoid": "^4.0.0"
   }
 }
